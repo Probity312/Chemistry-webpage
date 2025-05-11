@@ -1,0 +1,53 @@
+/* Navigation bar styling */
+nav {
+    background-color: light gray;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1000px; /* Add space between the items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li:hover a {
+    color: orange;
+}
+
+/* Dropdown menu styling */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    list-style-type: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    margin: 5px 0;
+}
+
+nav ul li ul li a {
+    color: white;
+}
+
+nav ul li ul li:hover a {
+    color: orange;
+}
